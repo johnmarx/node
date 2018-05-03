@@ -1,0 +1,19 @@
+{
+  "name": "oldstyle",
+  "version": "0.0.1",
+  "description": "graphique monitoring",
+  "main": "./index.js",
+  "bin": {
+    "oldstyle":"./bin/oldstyle"
+  },
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./bin/gtop"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.7.5",
+    "systeminformation": "^3.25.1"
+  }
+}
